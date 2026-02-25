@@ -2,10 +2,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css'
 
-import { Home } from "./Home/page";
-import { About } from "./About/page";
-import { Contact } from "./contact/page";
-import { Blog } from "./blog/page";
+import { Home } from "./Home/page.tsx";
+import { About } from "./About/page.tsx";
+import { Contact } from "./contact/page.tsx";
+import { Blog } from "./blog/page.tsx";
 
 export const App = () => {
 
