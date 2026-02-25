@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { Footer } from "../component/Footer.tsx";
-import { Header } from "../component/Header.tsx";
+import { Footer } from "../component/Footer";
+import { Header } from "../component/Header";
 
 interface Post {
   id: number;

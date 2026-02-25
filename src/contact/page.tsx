@@ -1,5 +1,5 @@
-import { Header } from  "../component/Header.tsx";
-import { Footer } from  "../component/Footer.tsx";
+import { Header } from  "../component/Header";
+import { Footer } from  "../component/Footer";
 export const Contact = () => {
     return(
 
@@ -7,7 +7,8 @@ export const Contact = () => {
      <Header />
         <h1>Contact</h1>
         <p>Contact page</p>
-        <Footer/>
+        
+        <Footer />
         <p>
             Footer page
         </p>

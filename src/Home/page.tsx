@@ -1,5 +1,5 @@
-import { Header } from  "../component/Header.tsx";
-import { Footer } from  "../component/Footer.tsx";
+import { Header } from  "../component/Header";
+import { Footer } from  "../component/Footer";
 
 export const Home = () => {
     return(
@@ -10,7 +10,8 @@ export const Home = () => {
         <p>
            Welcome to Home page.
         </p>
-        <Footer/>
+
+        <Footer />
         <p>
          this is footer.
         </p>

@@ -1,5 +1,5 @@
-import { Header } from  "../component/Header.tsx";
-import { Footer } from  "../component/Footer.tsx";
+import { Header } from  "../component/Header";
+import { Footer } from  "../component/Footer";
 export const About = () => {
     return(
 
@@ -9,7 +9,8 @@ export const About = () => {
         <p>
             this is about us
         </p>
-        <Footer/>
+        
+        <Footer />
         <p>
             footer
         </p>
