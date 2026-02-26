@@ -13,11 +13,3 @@
     }
   ]
 }
-
-
-
-fir frintend
-
-{
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
-}
